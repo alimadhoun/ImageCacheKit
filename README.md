@@ -1,6 +1,6 @@
 # ImageCacheKit
 
-**ImageCacheKit** is a lightweight and extensible Swift library for caching images using in-memory and disk-based strategies. It supports asynchronous loading, custom caching strategies, and thread-safe access patterns.
+**ImageCacheKit** is a lightweight and extensible Swift library for caching images using `in-memory` and `disk-based` strategies. It supports asynchronous loading, custom caching strategies, and thread-safe access patterns.
 
 ## ✨ Features
 
@@ -24,3 +24,4 @@ Simply drag and drop the `ImageCacheKit` folder into your Xcode project.
 
 ```swift
 let image = await ImageCache.image(for: url, strategy: .memory)
+```
